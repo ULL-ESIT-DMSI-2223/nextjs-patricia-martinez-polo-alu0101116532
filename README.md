@@ -102,4 +102,6 @@ A continuación, comprobamos como funciona:
 
 ![photo_generator](docs/images/photo_generator.jpg)
 
+![photo](docs/images/photo_generated.jpg)
+
 # 4. 
