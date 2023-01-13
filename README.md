@@ -5,20 +5,20 @@
 <details open="open">
   <summary>Tabla de Contenidos</summary>
   <ol>
+    <li><a href="Ejercicios REST">Ejercicios REST</a></li>
+    <li><a href="-----">-----</a></li>
+    <li><a href="Generador de imágenes">Generador de imágenes</a></li>
     <li><a href="-----">-----</a></li>
     <li><a href="-----">-----</a></li>
-    <li><a href="-----">-----</a></li>
-    <li><a href="-----">-----</a></li>
-    <li><a href="Ejercicios REST">"Ejercicios REST</a></li>
   </ol>
 </details>
 
 
-# 5. Ejercicios REST
+# 1. Ejercicios REST
 
 Realizamos solicitudes a la API de OpenAI utilizando el cliente Thunder Client.
 
-## 5.1. Ejercicio 1 - Obtener los modelos disponibles
+## 1.1. Ejercicio 1 - Obtener los modelos disponibles
 
 Este ejercicio es para enumerar y describir los diversos modelos disponibles en la API.
 
@@ -26,7 +26,7 @@ Para ello, debemos realizar una solicitud **GET** a la siguiente URL: https://ap
 
 ![ejercicio 1](docs/images/rest_exercise_1.jpg)
 
-## 5.2. Ejercicio 2 - Obtener información de un modelo
+## 1.2. Ejercicio 2 - Obtener información de un modelo
 
 Este ejercicio es para obtener información de un modelo en particular.
 
@@ -34,7 +34,7 @@ Para ello, debemos realizar una solicitud **GET** a la siguiente URL: https://ap
 
 ![ejercicio 2](docs/images/rest_exercise_2.jpg)
 
-## 5.3. Ejercicio 3 - Obtener una imagen
+## 1.3. Ejercicio 3 - Obtener una imagen
 
 Este ejercicio es para obtener una imagen según nuestras indicaciones.
 
@@ -48,7 +48,7 @@ Como se ve en la imagen hemos tenido que especificar en el *body* algunos parám
 - `n`: El número de imágenes que se generarán.
 - `size`: El tamaño de la imagen que se generará.
 
-## 5.4. Ejercicio 4 - Obtener una terminación
+## 1.4. Ejercicio 4 - Obtener una terminación
 
 Este ejercicio es para obtener una terminación según nuestras indicaciones.
 
@@ -66,7 +66,7 @@ Como se muestra en la imagen, volvemos a tener que especificar en el *body* algu
 - `logprobs`: Probabilidades de logaritmo de cada token devuelto.
 - `stop`: Una lista de tokens que indican dónde detener la generación.
 
-## 5.5. Ejercicio 5 - Obtener una moderación
+## 1.5. Ejercicio 5 - Obtener una moderación
 
 Este ejercicio es para clasificar si el texto viola la Política de contenido de OpenAI.
 
@@ -75,3 +75,9 @@ Para ello, debemos realizar una solicitud **POST** a la siguiente URL: https://a
 ![ejercicio 5](docs/images/rest_exercise_5.jpg)
 
 En este caso, en el *body* de la solicitud debemos especificar el texto de entrada a clasificar.
+
+# 2. Generador de nombres
+
+Hemos completado el código del generador de nombres para que funcione correctamente en el archivo **index.js**.
+
+# Generador de imágenes
