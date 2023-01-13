@@ -6,10 +6,8 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li><a href="Ejercicios REST">Ejercicios REST</a></li>
-    <li><a href="-----">-----</a></li>
+    <li><a href="Generador de nombres">Generador de nombres</a></li>
     <li><a href="Generador de imágenes">Generador de imágenes</a></li>
-    <li><a href="-----">-----</a></li>
-    <li><a href="-----">-----</a></li>
   </ol>
 </details>
 
@@ -103,5 +101,3 @@ A continuación, comprobamos como funciona:
 ![photo_generator](docs/images/photo_generator.jpg)
 
 ![photo](docs/images/photo_generated.jpg)
-
-# 4. 
