@@ -78,6 +78,28 @@ En este caso, en el *body* de la solicitud debemos especificar el texto de entra
 
 # 2. Generador de nombres
 
-Hemos completado el código del generador de nombres para que funcione correctamente en el archivo **index.js**.
+Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **pet.js**.
 
-# Generador de imágenes
+![pet_js](docs/images/pet_js_1.jpg)
+
+![pet_js](docs/images/pet_js_2.jpg)
+
+A continuación, comprobamos como funciona:
+
+![generate_names](docs/images/generate_names.jpg)
+
+![names](docs/images/names.jpg)
+
+# 3. Generador de imágenes
+
+Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **image.js**.
+
+![image_js](docs/images/image_js_1.jpg)
+
+![image_js](docs/images/image_js_2.jpg)
+
+A continuación, comprobamos como funciona:
+
+![photo_generator](docs/images/photo_generator.jpg)
+
+# 4. 
