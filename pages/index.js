@@ -7,16 +7,15 @@ function Home() {
   return (
     <div>
       <Head>
-        <title>Inicio</title>
-        <link rel="icon" href="/photo_icon.png" />
+        <title>Hola!!</title>
+        <link rel="icon" href="/api.png" />
       </Head>
 
       <main className={styles.main}>
-        <img src="/photo_icon.png" className={styles.icon} />
-        <h2>Inicio</h2>
-        <h3>Eliga un enlace</h3>
-        <Link href="/pet">Genera un nombre</Link>
+        <img src="/dog.png" className={styles.icon} />
+        <Link href="/pet">Genera un nombre de mascota</Link>
         <br></br>
+        <img src="/imagen.png" className={styles.icon} />
         <Link href="/image">Genera una imágen</Link>
         <br></br>
         <Link href="/404">Error 404</Link>
