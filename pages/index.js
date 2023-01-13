@@ -15,11 +15,11 @@ function Home() {
         <img src="/photo_icon.png" className={styles.icon} />
         <h2>Inicio</h2>
         <h3>Eliga un enlace</h3>
-        <Link href="/pet"> Generador de nombres para tu mascota </Link>
+        <Link href="/pet">Genera un nombre</Link>
         <br></br>
-        <Link href="/image">Generador de imágenes</Link>
+        <Link href="/image">Genera una imágen</Link>
         <br></br>
-        <Link href="/404">Página de error</Link>
+        <Link href="/404">Error 404</Link>
       </main>
     </div>
   )
