@@ -92,7 +92,7 @@ A continuación, comprobamos como funciona:
 
 Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **image.js**.
 
-![image_js](dpublic/image_js_1.jpg)
+![image_js](public/image_js_1.jpg)
 
 ![image_js](public/image_js_2.jpg)
 
