@@ -1,31 +1,30 @@
 import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY, // pasamos la API KEY con nodejs
+  apiKey: process.env.OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
 
 export default async function (req, res) {
   const completion = await openai.createCompletion({
-    model: "text-davinci-002",                // id del modelo de lenguaje a usar
-    prompt: generatePrompt(req.body.animal),  // prompt es el texto inicial ... cadena para la que generar los complementos
-    temperature: 0.6,                         // valores altos -> el modelo asume más riesgos
+    model: "text-davinci-002",
+    prompt: generatePrompt(req.body.animal),
+    temperature: 0.6,
   });
   res.status(200).json({ result: completion.data.choices[0].text });
 }
 
-function generatePrompt(animal) {            // función auxiliar para generar el prompt
+function generatePrompt(animal) {
   const capitalizedAnimal =
     animal[0].toUpperCase() + animal.slice(1).toLowerCase();
   console.log(capitalizedAnimal);
-  const suggestion = `Suggest three names for an animal that is a superhero.
-  
+  const suggestion = `Suggest four names for an animal that is a superhero.
 Animal: Cat
-Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline
+Names: Captain Sharpclaw, Agent Fluffball, The Incredible Feline, Mica
 Animal: Dog
-Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot
+Names: Ruff the Protector, Wonder Canine, Sir Barks-a-Lot, Tiger
 Animal: ${capitalizedAnimal}
 Names:`;
-  console.log(sugestion);
+  console.log(suggestion);
   return suggestion;
 }
