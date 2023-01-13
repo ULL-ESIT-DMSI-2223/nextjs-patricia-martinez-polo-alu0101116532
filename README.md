@@ -78,26 +78,26 @@ En este caso, en el *body* de la solicitud debemos especificar el texto de entra
 
 Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **pet.js**.
 
-![pet_js](docs/images/pet_js_1.jpg)
+![pet_js](public/pet_js_1.jpg)
 
-![pet_js](docs/images/pet_js_2.jpg)
+![pet_js](public/pet_js_2.jpg)
 
 A continuación, comprobamos como funciona:
 
-![generate_names](docs/images/generate_names.jpg)
+![generate_names](public/generate_names.jpg)
 
-![names](docs/images/names.jpg)
+![names](public/names.jpg)
 
 # 3. Generador de imágenes
 
 Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **image.js**.
 
-![image_js](docs/images/image_js_1.jpg)
+![image_js](dpublic/image_js_1.jpg)
 
-![image_js](docs/images/image_js_2.jpg)
+![image_js](public/image_js_2.jpg)
 
 A continuación, comprobamos como funciona:
 
-![photo_generator](docs/images/photo_generator.jpg)
+![photo_generator](public/photo_generator.jpg)
 
-![photo](docs/images/photo_generated.jpg)
+![photo](public/photo_generated.jpg)
