@@ -12,12 +12,13 @@ function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" alt="" width="200%" height="200%" className={styles.icon} />
+        <img src="/dog.png" className={styles.icon} />
         <Link href="/pet">Genera un nombre de mascota</Link>
         <br></br>
-        <img src="/imagen.png" alt="" width="200%" height="200%" className={styles.icon} />
+        <img src="/imagen.png" className={styles.icon} />
         <Link href="/image">Genera una imagen</Link>
         <br></br>
+        <img src="/error.png" className={styles.icon} />
         <Link href="/404">Error 404</Link>
       </main>
     </div>
