@@ -12,7 +12,7 @@ function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/dog.png" className={styles.icon} />
+        <img src="/dog.png" alt="" width="100" height="100" className={styles.icon} />
         <Link href="/pet">Genera un nombre de mascota</Link>
         <br></br>
         <img src="/imagen.png" className={styles.icon} />
