@@ -84,7 +84,7 @@ Hemos creado el código del generador de nombres para que funcione correctamente
 
 A continuación, comprobamos como funciona:
 
-![generate_names](public/generate_names.jpg)
+![generate_names](public/name_pet.jpg)
 
 ![names](public/names.jpg)
 
