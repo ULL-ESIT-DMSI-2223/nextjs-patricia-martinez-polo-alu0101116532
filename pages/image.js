@@ -7,7 +7,7 @@ export default function Home() {
   const [promptInput, setPrompt] = useState("");
   const [result, setResult] = useState("");
 
-
+  
   async function onSubmit(event) {
     event.preventDefault();
     const response = await fetch("/api/imggenerator", {
