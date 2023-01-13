@@ -6,6 +6,7 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li><a href="Ejercicios REST">Ejercicios REST</a></li>
+    <li><a href="Deploy en Netlify y Vercel">Deploy en Netlify y Vercel</a></li>
     <li><a href="Generador de nombres">Generador de nombres</a></li>
     <li><a href="Generador de imágenes">Generador de imágenes</a></li>
   </ol>
@@ -74,7 +75,15 @@ Para ello, debemos realizar una solicitud **POST** a la siguiente URL: https://a
 
 En este caso, en el *body* de la solicitud debemos especificar el texto de entrada a clasificar.
 
-# 2. Generador de nombres
+# 2. Deploy en Netlify y Vercel
+
+Se implementa el código de la API en Netlify y Vercel.
+
+![netlify](public/netlify.jpg)
+
+![vercel](public/vercel.jpg)
+
+# 3. Generador de nombres
 
 Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **pet.js**.
 
@@ -88,7 +97,7 @@ A continuación, comprobamos como funciona:
 
 ![names](public/names.jpg)
 
-# 3. Generador de imágenes
+# 4. Generador de imágenes
 
 Hemos creado el código del generador de nombres para que funcione correctamente en el archivo **image.js**.
 
