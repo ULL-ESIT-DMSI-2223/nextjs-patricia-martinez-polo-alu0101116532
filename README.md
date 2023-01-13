@@ -5,10 +5,10 @@
 <details open="open">
   <summary>Tabla de Contenidos</summary>
   <ol>
-    <li><a href="Solución paralela usando la librería Async">Solución paralela usando la librería Async</a></li>
-    <li><a href="Solución paralela sin usar la librería Async">Solución paralela sin usar la librería Async</a></li>
-    <li><a href="Creación de la función asyncmap">Creación de la función asyncmap</a></li>
-    <li><a href="Creación de la función readFileSerially">Creación de la función readFileSerially</a></li>
+    <li><a href="-----">-----</a></li>
+    <li><a href="-----">-----</a></li>
+    <li><a href="-----">-----</a></li>
+    <li><a href="-----">-----</a></li>
     <li><a href="Ejercicios REST">"Ejercicios REST</a></li>
   </ol>
 </details>
