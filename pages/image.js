@@ -10,7 +10,7 @@ export default function Home() {
 
   async function onSubmit(event) {
     event.preventDefault();
-    const response = await fetch("/api/imggenerator", {
+    const response = await fetch("/api/imgGen", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
