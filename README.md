@@ -9,6 +9,7 @@
     <li><a href="Deploy en Netlify y Vercel">Deploy en Netlify y Vercel</a></li>
     <li><a href="Generador de nombres">Generador de nombres</a></li>
     <li><a href="Generador de imágenes">Generador de imágenes</a></li>
+    <li><a href="Ejercicio de Rutas Dinámicas">Ejercicio de Rutas Dinámicas</a></li>
   </ol>
 </details>
 
