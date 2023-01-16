@@ -7,9 +7,10 @@ export default function Home() {
   const [promptInput, setPrompt] = useState("");
   const [result, setResult] = useState("");
 
+
   async function onSubmit(event) {
     event.preventDefault();
-    const response = await fetch("/api/imgGen", {
+    const response = await fetch("/api/img_gen", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -52,4 +53,5 @@ export default function Home() {
       </main>
     </div>
   );
+
 }
